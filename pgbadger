@@ -3892,7 +3892,7 @@ sub process_file
 
 				next if ( ($row->[11] !~ $parse_regex)  || ($row->[11] eq 'LOCATION'));
                 
-                $prefix_vars{'t_duration'} = undef;
+                                $prefix_vars{'t_duration'} = undef;
 				# Extract the date
 				if ($row->[0] =~ m/^(\d+)-(\d+)-(\d+)\s+(\d+):(\d+):(\d+)\.(\d+)/)
 				{
